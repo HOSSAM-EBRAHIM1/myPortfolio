@@ -25,6 +25,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
 /* ─── SIDEBAR ─── */
 #sidebar {
   width: 240px;
