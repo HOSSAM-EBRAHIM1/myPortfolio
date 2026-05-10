@@ -18,11 +18,7 @@ Personal portfolio website built with HTML, Tailwind CSS, and Vanilla JavaScript
 - Fully responsive with mobile hamburger menu
 - Sections: Home · About · Services · Projects · Contact
 
-## Run Locally
-```bash
-git clone https://github.com/your-username/portfolio.git
-```
-Then just open `index.html` in your browser.
+
 
 ## Contact
-**Hossam Ebrahim** — your@email.com · [LinkedIn](https://www.linkedin.com/in/hossam-ebrahim-3b8598271?utm_source=share_via&utm_content=profile&utm_medium=member_ios) · [GitHub](https://github.com/HOSSAM-EBRAHIM1)
+**Hossam Ebrahim** — hossamebrahim1356@gmail.com · [LinkedIn](https://www.linkedin.com/in/hossam-ebrahim-3b8598271?utm_source=share_via&utm_content=profile&utm_medium=member_ios) · [GitHub](https://github.com/HOSSAM-EBRAHIM1)
