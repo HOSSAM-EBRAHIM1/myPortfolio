@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hossam Ebrahim — Portfolio</title>
+  <!-- font-awesome & google fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Space+Mono:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/style.css" />
+
+</head>
+<body>
+
+<!-- Hamburger (mobile) -->
+<button id="hamburger" aria-label="Toggle menu"><i class="fa fa-bars"></i></button>
+
+<!-- ── SIDEBAR ── -->
+<aside id="sidebar">
+  <div class="avatar-wrap   rounded-full overflow-hidden">HE</div>
+
+  <nav style="width:100%; margin-top: 2rem;">
+    <ul>
+      <li><a href="#home"     class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidebar-footer">@2025 Hossam Ebrahim</div>
+</aside>
+
+<!-- ── PARTICLE CANVAS ── -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- ── MAIN CONTENT ── -->
+<div id="main">
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="content">
+      <p class="greeting">Welcome to my portfolio</p>
+      <h1 class="hero-title">Hi, I am <span>Hossam<br>Ebrahim</span></h1>
+      <p class="hero-role">Front-End Developer</p>
+      <p class="hero-desc">
+        I build fast, accessible, and visually engaging web experiences.
+        Passionate about clean code, pixel-perfect UI, and turning ideas
+        into polished digital products.
+      </p>
+      <div class="social-icons">
+        <a href="https://github.com/HOSSAM-EBRAHIM1" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/hossam-ebrahim-3b8598271?utm_source=share_via&utm_content=profile&utm_medium=member_ios" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/hossam.ebrahim.833237" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/2001226462082" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="inner reveal">
+      <div>
+        <p class="section-label">Get to know me</p>
+        <h2 class="section-title">About<br><span style="color:var(--orange)">Me</span></h2>
+        <p class="about-text">
+          I'm Hossam Ebrahim, a Front-End Developer based in Egypt.
+          I specialize in building responsive, performant web interfaces
+          using modern tools like HTML, CSS, JavaScript, React, and Tailwind.
+          I care deeply about user experience, clean architecture, and
+          writing code that is both readable and maintainable.
+        </p>
+      </div>
+      <div>
+        <p class="section-label" style="margin-bottom:1rem">My Stack</p>
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fab fa-html5" style="color:var(--orange);margin-right:8px"></i>HTML5</div>
+          <div class="skill-item"><i class="fab fa-css3-alt" style="color:var(--orange);margin-right:8px"></i>CSS3</div>
+          <div class="skill-item"><i class="fab fa-js" style="color:var(--orange);margin-right:8px"></i>JavaScript</div>
+          <div class="skill-item"><i class="fab fa-react" style="color:var(--orange);margin-right:8px"></i>React</div>
+          <div class="skill-item"><i class="fas fa-wind" style="color:var(--orange);margin-right:8px"></i>Tailwind</div>
+          <div class="skill-item"><i class="fab fa-git-alt" style="color:var(--orange);margin-right:8px"></i>Git</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="inner reveal">
+      <p class="section-label">What I offer</p>
+      <h2 class="section-title">My <span style="color:var(--orange)">Services</span></h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Building fast, responsive websites with clean semantic code and modern best practices.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Responsive Design</h3>
+          <p>Pixel-perfect layouts that look stunning on every device — from mobile to ultrawide.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fab fa-react"></i></div>
+          <h3>React Apps</h3>
+          <p>Component-driven SPAs with React, hooks, and efficient state management patterns.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>UI / UX</h3>
+          <p>Translating designs into high-fidelity interfaces that are both beautiful and usable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="inner reveal">
+      <p class="section-label">My Work</p>
+      <h2 class="section-title">Recent <span style="color:var(--orange)">Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-thumb"><i class="fas fa-tasks"></i></div>
+          <div class="project-body">
+            <h3>Task Tracker App</h3>
+            <p>A web application for tracking tasks and managing time with drag-and-drop boards.</p>
+            <span class="project-tag">React · Tailwind</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb"><i class="fas fa-chart-line"></i></div>
+          <div class="project-body">
+            <h3>Sales Dashboard</h3>
+            <p>Interactive data visualization dashboard providing real-time retail sales insights.</p>
+            <span class="project-tag">JS · Chart.js</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb"><i class="fas fa-store"></i></div>
+          <div class="project-body">
+            <h3>E-Commerce UI</h3>
+            <p>Full shopping interface with product filtering, cart system, and checkout flow.</p>
+            <span class="project-tag">React · Redux</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb"><i class="fas fa-wallet"></i></div>
+          <div class="project-body">
+            <h3>Budget Manager</h3>
+            <p>Personal finance web app with income tracking, expense categorization, and charts.</p>
+            <span class="project-tag">HTML · CSS · JS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="inner reveal">
+      <p class="section-label">Get in touch</p>
+      <h2 class="section-title">Contact <span style="color:var(--orange)">Me</span></h2>
+      <div class="contact-form">
+        <div class="form-group">
+          <label for="c-name">Name</label>
+          <input type="text" id="c-name" placeholder="Your full name" />
+        </div>
+        <div class="form-group">
+          <label for="c-email">Email</label>
+          <input type="email" id="c-email" placeholder="your@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="c-msg">Message</label>
+          <textarea id="c-msg" placeholder="Tell me about your project…"></textarea>
+        </div>
+        <button class="btn-send" onclick="handleSend()">Send Message</button>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /#main -->
+
+<script>
+/* ─── PARTICLES ─── */
+const canvas = document.getElementById('particle-canvas');
+const ctx    = canvas.getContext('2d');
+
+function resize() {
+  canvas.width  = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight;
+}
+resize();
+window.addEventListener('resize', resize);
+
+const DOTS = [];
+const NUM  = 90;
+
+for (let i = 0; i < NUM; i++) {
+  DOTS.push({
+    x:  Math.random() * window.innerWidth,
+    y:  Math.random() * window.innerHeight,
+    r:  Math.random() * 2.2 + 0.4,
+    vx: (Math.random() - 0.5) * 0.35,
+    vy: (Math.random() - 0.5) * 0.35,
+    a:  Math.random() * 0.6 + 0.2
+  });
+}
+
+function drawParticles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  DOTS.forEach(d => {
+    d.x += d.vx;
+    d.y += d.vy;
+    if (d.x < 0) d.x = canvas.width;
+    if (d.x > canvas.width)  d.x = 0;
+    if (d.y < 0) d.y = canvas.height;
+    if (d.y > canvas.height) d.y = 0;
+
+    ctx.beginPath();
+    ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(180,165,130,${d.a})`;
+    ctx.fill();
+  });
+
+  // Connect close dots
+  for (let i = 0; i < DOTS.length; i++) {
+    for (let j = i + 1; j < DOTS.length; j++) {
+      const dx = DOTS[i].x - DOTS[j].x;
+      const dy = DOTS[i].y - DOTS[j].y;
+      const dist = Math.sqrt(dx*dx + dy*dy);
+      if (dist < 120) {
+        ctx.beginPath();
+        ctx.moveTo(DOTS[i].x, DOTS[i].y);
+        ctx.lineTo(DOTS[j].x, DOTS[j].y);
+        ctx.strokeStyle = `rgba(180,165,130,${0.12 * (1 - dist/120)})`;
+        ctx.lineWidth = 0.5;
+        ctx.stroke();
+      }
+    }
+  }
+
+  requestAnimationFrame(drawParticles);
+}
+drawParticles();
+
+/* ─── ACTIVE NAV + SCROLL REVEAL ─── */
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('#sidebar nav a');
+const reveals  = document.querySelectorAll('.reveal');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      // Active link
+      navLinks.forEach(a => a.classList.remove('active'));
+      const link = document.querySelector(`#sidebar nav a[href="#${e.target.id}"]`);
+      if (link) link.classList.add('active');
+      // Reveal animation
+      if (e.target.classList.contains('reveal')) {
+        e.target.classList.add('visible');
+      }
+    }
+  });
+}, { threshold: 0.35 });
+
+sections.forEach(s => observer.observe(s));
+reveals.forEach(r => observer.observe(r));
+
+/* ─── HAMBURGER ─── */
+const ham     = document.getElementById('hamburger');
+const sidebar = document.getElementById('sidebar');
+
+ham.addEventListener('click', () => {
+  sidebar.classList.toggle('open');
+});
+
+/* ─── CONTACT SEND ─── */
+function handleSend() {
+  const name  = document.getElementById('c-name').value.trim();
+  const email = document.getElementById('c-email').value.trim();
+  const msg   = document.getElementById('c-msg').value.trim();
+  if (!name || !email || !msg) {
+    alert('Please fill in all fields.');
+    return;
+  }
+  alert(`Thanks ${name}! I'll get back to you soon.`);
+  document.getElementById('c-name').value  = '';
+  document.getElementById('c-email').value = '';
+  document.getElementById('c-msg').value   = '';
+}
+</script>
+</body>
+</html>
